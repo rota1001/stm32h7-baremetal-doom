@@ -129,7 +129,7 @@ void ltdc_init(void *frame_buffer)
     LTDC->TWCR = ((HSYNC + HBP + LCD_WIDTH + HFP - 1) << 16) |
                  (VSYNC + VBP + LCD_HEIGHT + VFP - 1);
 
-    LTDC->BCCR = (0xFF << 16);  // background color
+    LTDC->BCCR = 0;  // background color
 
     LTDC->GCR &= ~(1 << 16);
     LTDC->GCR |= LTDC_GCR_LTDCEN;

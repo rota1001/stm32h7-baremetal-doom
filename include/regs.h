@@ -19,7 +19,9 @@
 #define RCC_PLL3DIVR (*(volatile unsigned long *) (RCC_BASE + 0x040UL))
 #define RCC_PLL3FRACR (*(volatile unsigned long *) (RCC_BASE + 0x044UL))
 #define RCC_D3CCIPR (*(volatile unsigned long *) (RCC_BASE + 0x058UL))
+#define RCC_AHB3RSTR (*(volatile unsigned long *) (RCC_BASE + 0x07CUL))
 #define RCC_APB3RSTR (*(volatile unsigned long *) (RCC_BASE + 0x088UL))
+#define RCC_AHB3ENR (*(volatile unsigned long *) (RCC_BASE + 0x0D4))
 #define RCC_AHB4ENR (*(volatile unsigned long *) (RCC_BASE + 0x0E0UL))
 #define RCC_APB2ENR (*(volatile unsigned long *) (RCC_BASE + 0x0F0UL))
 #define RCC_APB3ENR (*(volatile unsigned long *) (RCC_BASE + 0x0E4UL))
@@ -129,6 +131,8 @@
 #define RCC_APB4ENR_PWREN BIT(1)
 #define RCC_APB2ENR_USART1EN BIT(4)
 #define RCC_APB3ENR_LTDCEN BIT(3)
+
+#define RCC_AHB3ENR_QSPIEN BIT(14)
 
 
 #define FLASH_ACR (*(volatile unsigned long *) (D1_AHB1PERIPH_BASE + 0x2000UL))
@@ -324,3 +328,29 @@ struct ltdc {
 
 #define LTDC_PF_L8 0x05UL
 #define LTDC_PF_RGB565 0x02UL
+
+#define QUADSPI_BASE 0x52005000UL
+
+struct qspi {
+    volatile unsigned long CR;
+    volatile unsigned long DCR;
+    volatile unsigned long SR;
+    volatile unsigned long FCR;
+    volatile unsigned long DLR;
+    volatile unsigned long CCR;
+    volatile unsigned long AR;
+    volatile unsigned long ABR;
+    volatile unsigned long DR;
+    volatile unsigned long PSMKR;
+    volatile unsigned long PSMAR;
+    volatile unsigned long PIR;
+    volatile unsigned long LPTR;
+};
+
+#define QUADSPI ((struct qspi *) QUADSPI_BASE)
+
+#define QUADSPI_SR_BUSY BIT(5)
+#define QUADSPI_SR_TCF BIT(1)
+
+#define QUADSPI_CR_EN BIT(0)
+#define QUADSPI_CR_DIV2 (1UL << 24)

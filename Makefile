@@ -1,8 +1,7 @@
 CROSS_COMPILE ?= arm-linux-gnueabi-
 .PHONY: all clean
 
-SRCS = src/boot.c src/rcc.c src/usart.c src/ltdc.c
-
+SRCS = src/boot.c src/rcc.c src/usart.c src/ltdc.c src/qspi.c
 LINKER = linker.ld
 
 OBJS = $(SRCS:%.c=build/%.o)
