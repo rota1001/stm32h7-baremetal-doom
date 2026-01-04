@@ -21,6 +21,7 @@
 #define RCC_D3CCIPR (*(volatile unsigned long *) (RCC_BASE + 0x058UL))
 #define RCC_AHB3RSTR (*(volatile unsigned long *) (RCC_BASE + 0x07CUL))
 #define RCC_APB3RSTR (*(volatile unsigned long *) (RCC_BASE + 0x088UL))
+#define RCC_AHB2ENR (*(volatile unsigned long *) (RCC_BASE + 0x0DCUL))
 #define RCC_AHB3ENR (*(volatile unsigned long *) (RCC_BASE + 0x0D4))
 #define RCC_AHB4ENR (*(volatile unsigned long *) (RCC_BASE + 0x0E0UL))
 #define RCC_APB2ENR (*(volatile unsigned long *) (RCC_BASE + 0x0F0UL))
@@ -122,6 +123,11 @@
 
 #define RCC_APB3RSTR_LTDCRST BIT(3)
 #define RCC_D3CCIPR_LTDCSEL_MASK (0x7UL << 24)
+
+
+#define RCC_AHB2ENR_SRAM1EN BIT(29)
+#define RCC_AHB2ENR_SRAM2EN BIT(30)
+#define RCC_AHB2ENR_SRAM3EN BIT(31)
 
 #define RCC_AHB4ENR_GPIOAEN BIT(0)
 #define RCC_AHB4ENR_GPIOBEN BIT(1)
@@ -315,10 +321,10 @@ struct ltdc {
 #define LTDC_layer2 ((struct ltdc_layer *) (LTDC_BASE + 0x104))
 
 #define LTDC_GCR_LTDCEN BIT(0)
-#define LTDC_GCR_HSPOL BIT(16)
-#define LTDC_GCR_VSPOL BIT(17)
-#define LTDC_GCR_DEPOL BIT(18)
-#define LTDC_GCR_PCPOL BIT(19)
+#define LTDC_GCR_HSPOL BIT(31)
+#define LTDC_GCR_VSPOL BIT(30)
+#define LTDC_GCR_DEPOL BIT(29)
+#define LTDC_GCR_PCPOL BIT(28)
 
 #define LTDC_SRCR_IMR BIT(0)
 #define LTDC_SRCR_VBR BIT(1)
@@ -353,4 +359,5 @@ struct qspi {
 #define QUADSPI_SR_TCF BIT(1)
 
 #define QUADSPI_CR_EN BIT(0)
-#define QUADSPI_CR_DIV2 (1UL << 24)
+#define QUADSPI_CR_DIV2 BIT(24)
+#define QUADSPI_CR_SSHIFT BIT(4)

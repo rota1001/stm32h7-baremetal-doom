@@ -1,5 +1,5 @@
 #!/bin/sh
-FILES=$(find src include -type f \( -name "*.c" -o -name "*.h" \))
+FILES=$(find src include doomgeneric -type f \( -name "*.c" -o -name "*.h" \))
 
 if [ -z "$FILES" ]; then
     exit 0

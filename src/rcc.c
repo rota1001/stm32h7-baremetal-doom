@@ -49,7 +49,7 @@ void rcc_init(void)
     RCC_PLLCKSELR &= ~(RCC_PLLCKSELR_PLLSRC_MASK | RCC_PLLCKSELR_DIVM1_MASK);
     RCC_PLLCKSELR |= RCC_PLLCKSELR_PLLSRC_HSI | (4 << 4);
 
-    RCC_PLL1DIVR = ((40 - 1) << 0) |  // N
+    RCC_PLL1DIVR = ((20 - 1) << 0) |  // N
                    ((2 - 1) << 9) |   // P
                    ((2 - 1) << 16) |  // Q
                    ((2 - 1) << 24);   // R

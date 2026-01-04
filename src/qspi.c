@@ -92,6 +92,7 @@ void qspi_init(void)
 
 
     QUADSPI->CR = QUADSPI_CR_DIV2 | QUADSPI_CR_EN;
+    QUADSPI->CR |= QUADSPI_CR_SSHIFT;
     /**
      * 16 MB and 16 cycles chip select high time
      */

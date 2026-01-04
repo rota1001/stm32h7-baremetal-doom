@@ -1,0 +1,1714 @@
+
+Discarded input sections
+
+ .text          0x00000000        0xc build/dummy.o
+ .data          0x00000000        0x0 build/dummy.o
+ .bss           0x00000000        0x8 build/dummy.o
+ .debug_info    0x00000000       0xc8 build/dummy.o
+ .debug_abbrev  0x00000000       0x8c build/dummy.o
+ .debug_aranges
+                0x00000000       0x20 build/dummy.o
+ .debug_line    0x00000000       0x48 build/dummy.o
+ .debug_str     0x00000000      0x16a build/dummy.o
+ .comment       0x00000000       0x2c build/dummy.o
+ .note.GNU-stack
+                0x00000000        0x0 build/dummy.o
+ .debug_frame   0x00000000       0x30 build/dummy.o
+ .ARM.attributes
+                0x00000000       0x2e build/dummy.o
+ .text          0x00000000     0x1e28 build/am_map.o
+ .data          0x00000000      0x27c build/am_map.o
+ .bss           0x00000000      0x158 build/am_map.o
+ .rodata        0x00000000       0x72 build/am_map.o
+ .debug_info    0x00000000     0x40be build/am_map.o
+ .debug_abbrev  0x00000000      0x354 build/am_map.o
+ .debug_aranges
+                0x00000000       0x20 build/am_map.o
+ .debug_line    0x00000000     0x1162 build/am_map.o
+ .debug_str     0x00000000     0x482a build/am_map.o
+ .comment       0x00000000       0x2c build/am_map.o
+ .note.GNU-stack
+                0x00000000        0x0 build/am_map.o
+ .debug_frame   0x00000000      0x4a0 build/am_map.o
+ .ARM.attributes
+                0x00000000       0x2e build/am_map.o
+ .text          0x00000000        0x0 build/doomdef.o
+ .data          0x00000000        0x0 build/doomdef.o
+ .bss           0x00000000        0x0 build/doomdef.o
+ .debug_info    0x00000000       0x6c build/doomdef.o
+ .debug_abbrev  0x00000000       0x26 build/doomdef.o
+ .debug_aranges
+                0x00000000       0x18 build/doomdef.o
+ .debug_line    0x00000000       0x2a build/doomdef.o
+ .debug_str     0x00000000      0x13e build/doomdef.o
+ .comment       0x00000000       0x2c build/doomdef.o
+ .note.GNU-stack
+                0x00000000        0x0 build/doomdef.o
+ .ARM.attributes
+                0x00000000       0x2e build/doomdef.o
+ .text          0x00000000        0x0 build/doomstat.o
+ .data          0x00000000        0x8 build/doomstat.o
+ .bss           0x00000000        0xc build/doomstat.o
+ .debug_info    0x00000000     0x1fe1 build/doomstat.o
+ .debug_abbrev  0x00000000       0xa7 build/doomstat.o
+ .debug_aranges
+                0x00000000       0x18 build/doomstat.o
+ .debug_line    0x00000000       0x76 build/doomstat.o
+ .debug_str     0x00000000     0x3581 build/doomstat.o
+ .comment       0x00000000       0x2c build/doomstat.o
+ .note.GNU-stack
+                0x00000000        0x0 build/doomstat.o
+ .ARM.attributes
+                0x00000000       0x2e build/doomstat.o
+ .text          0x00000000        0x0 build/dstrings.o
+ .data          0x00000000       0x40 build/dstrings.o
+ .bss           0x00000000        0x0 build/dstrings.o
+ .rodata        0x00000000      0x33b build/dstrings.o
+ .debug_info    0x00000000       0x82 build/dstrings.o
+ .debug_abbrev  0x00000000       0x63 build/dstrings.o
+ .debug_aranges
+                0x00000000       0x18 build/dstrings.o
+ .debug_line    0x00000000       0x39 build/dstrings.o
+ .debug_str     0x00000000       0xe2 build/dstrings.o
+ .comment       0x00000000       0x2c build/dstrings.o
+ .note.GNU-stack
+                0x00000000        0x0 build/dstrings.o
+ .ARM.attributes
+                0x00000000       0x2e build/dstrings.o
+ .text          0x00000000       0xa8 build/d_event.o
+ .data          0x00000000        0x0 build/d_event.o
+ .bss           0x00000000      0x508 build/d_event.o
+ .debug_info    0x00000000      0x18e build/d_event.o
+ .debug_abbrev  0x00000000       0xec build/d_event.o
+ .debug_aranges
+                0x00000000       0x20 build/d_event.o
+ .debug_line    0x00000000       0x79 build/d_event.o
+ .debug_str     0x00000000      0x1d6 build/d_event.o
+ .comment       0x00000000       0x2c build/d_event.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_event.o
+ .debug_frame   0x00000000       0x64 build/d_event.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_event.o
+ .text          0x00000000        0x0 build/d_items.o
+ .data          0x00000000       0xd8 build/d_items.o
+ .bss           0x00000000        0x0 build/d_items.o
+ .debug_info    0x00000000     0x1e4c build/d_items.o
+ .debug_abbrev  0x00000000       0xc6 build/d_items.o
+ .debug_aranges
+                0x00000000       0x18 build/d_items.o
+ .debug_line    0x00000000       0x4e build/d_items.o
+ .debug_str     0x00000000     0x3357 build/d_items.o
+ .comment       0x00000000       0x2c build/d_items.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_items.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_items.o
+ .text          0x00000000      0x564 build/d_iwad.o
+ .data          0x00000000        0x0 build/d_iwad.o
+ .bss           0x00000000      0x208 build/d_iwad.o
+ .rodata        0x00000000      0x2ee build/d_iwad.o
+ .debug_info    0x00000000      0x6ed build/d_iwad.o
+ .debug_abbrev  0x00000000      0x21c build/d_iwad.o
+ .debug_aranges
+                0x00000000       0x20 build/d_iwad.o
+ .debug_line    0x00000000      0x3d9 build/d_iwad.o
+ .debug_str     0x00000000      0x3fd build/d_iwad.o
+ .comment       0x00000000       0x2c build/d_iwad.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_iwad.o
+ .debug_frame   0x00000000      0x1ec build/d_iwad.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_iwad.o
+ .text          0x00000000      0x7ac build/d_loop.o
+ .data          0x00000000        0x4 build/d_loop.o
+ .bss           0x00000000     0x5068 build/d_loop.o
+ .rodata        0x00000000       0x73 build/d_loop.o
+ .debug_info    0x00000000      0xa18 build/d_loop.o
+ .debug_abbrev  0x00000000      0x344 build/d_loop.o
+ .debug_aranges
+                0x00000000       0x20 build/d_loop.o
+ .debug_rnglists
+                0x00000000       0x17 build/d_loop.o
+ .debug_line    0x00000000      0x549 build/d_loop.o
+ .debug_str     0x00000000      0x69b build/d_loop.o
+ .comment       0x00000000       0x2c build/d_loop.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_loop.o
+ .debug_frame   0x00000000      0x260 build/d_loop.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_loop.o
+ .text          0x00000000     0x188c build/d_main.o
+ .data          0x00000000       0xac build/d_main.o
+ .bss           0x00000000      0x8dc build/d_main.o
+ .rodata        0x00000000     0x1108 build/d_main.o
+ .debug_info    0x00000000     0x44f8 build/d_main.o
+ .debug_abbrev  0x00000000      0x40b build/d_main.o
+ .debug_aranges
+                0x00000000       0x20 build/d_main.o
+ .debug_line    0x00000000      0xf2a build/d_main.o
+ .debug_str     0x00000000     0x5196 build/d_main.o
+ .comment       0x00000000       0x2c build/d_main.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_main.o
+ .debug_frame   0x00000000      0x2d8 build/d_main.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_main.o
+ .text          0x00000000      0x298 build/d_mode.o
+ .data          0x00000000      0x120 build/d_mode.o
+ .bss           0x00000000        0x0 build/d_mode.o
+ .rodata        0x00000000       0x4f build/d_mode.o
+ .debug_info    0x00000000      0x398 build/d_mode.o
+ .debug_abbrev  0x00000000      0x14f build/d_mode.o
+ .debug_aranges
+                0x00000000       0x20 build/d_mode.o
+ .debug_line    0x00000000      0x193 build/d_mode.o
+ .debug_str     0x00000000      0x337 build/d_mode.o
+ .comment       0x00000000       0x2c build/d_mode.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_mode.o
+ .debug_frame   0x00000000       0xfc build/d_mode.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_mode.o
+ .text          0x00000000      0x4a0 build/d_net.o
+ .data          0x00000000       0x10 build/d_net.o
+ .bss           0x00000000       0x54 build/d_net.o
+ .rodata        0x00000000      0x187 build/d_net.o
+ .debug_info    0x00000000     0x31c7 build/d_net.o
+ .debug_abbrev  0x00000000      0x2c4 build/d_net.o
+ .debug_aranges
+                0x00000000       0x20 build/d_net.o
+ .debug_line    0x00000000      0x3d5 build/d_net.o
+ .debug_str     0x00000000     0x42b6 build/d_net.o
+ .comment       0x00000000       0x2c build/d_net.o
+ .note.GNU-stack
+                0x00000000        0x0 build/d_net.o
+ .debug_frame   0x00000000      0x110 build/d_net.o
+ .ARM.attributes
+                0x00000000       0x2e build/d_net.o
+ .text          0x00000000      0xe64 build/f_finale.o
+ .data          0x00000000      0x248 build/f_finale.o
+ .bss           0x00000000       0x30 build/f_finale.o
+ .rodata        0x00000000     0x1f63 build/f_finale.o
+ .debug_info    0x00000000     0x3ce1 build/f_finale.o
+ .debug_abbrev  0x00000000      0x388 build/f_finale.o
+ .debug_aranges
+                0x00000000       0x20 build/f_finale.o
+ .debug_line    0x00000000      0x809 build/f_finale.o
+ .debug_str     0x00000000     0x4cb9 build/f_finale.o
+ .comment       0x00000000       0x2c build/f_finale.o
+ .note.GNU-stack
+                0x00000000        0x0 build/f_finale.o
+ .debug_frame   0x00000000      0x1dc build/f_finale.o
+ .ARM.attributes
+                0x00000000       0x2e build/f_finale.o
+ .text          0x00000000      0x650 build/f_wipe.o
+ .data          0x00000000       0x18 build/f_wipe.o
+ .bss           0x00000000       0x14 build/f_wipe.o
+ .debug_info    0x00000000      0x630 build/f_wipe.o
+ .debug_abbrev  0x00000000      0x1fb build/f_wipe.o
+ .debug_aranges
+                0x00000000       0x20 build/f_wipe.o
+ .debug_line    0x00000000      0x3df build/f_wipe.o
+ .debug_str     0x00000000      0x32c build/f_wipe.o
+ .comment       0x00000000       0x2c build/f_wipe.o
+ .note.GNU-stack
+                0x00000000        0x0 build/f_wipe.o
+ .debug_frame   0x00000000      0x184 build/f_wipe.o
+ .ARM.attributes
+                0x00000000       0x2e build/f_wipe.o
+ .text          0x00000000     0x2e04 build/g_game.o
+ .data          0x00000000      0x170 build/g_game.o
+ .bss           0x00000000      0xec4 build/g_game.o
+ .rodata        0x00000000      0x3fd build/g_game.o
+ .debug_info    0x00000000     0x5128 build/g_game.o
+ .debug_abbrev  0x00000000      0x4b9 build/g_game.o
+ .debug_aranges
+                0x00000000       0x20 build/g_game.o
+ .debug_line    0x00000000     0x16db build/g_game.o
+ .debug_str     0x00000000     0x588a build/g_game.o
+ .comment       0x00000000       0x2c build/g_game.o
+ .note.GNU-stack
+                0x00000000        0x0 build/g_game.o
+ .debug_frame   0x00000000      0x598 build/g_game.o
+ .ARM.attributes
+                0x00000000       0x2e build/g_game.o
+ .text          0x00000000      0x69c build/hu_lib.o
+ .data          0x00000000        0x0 build/hu_lib.o
+ .bss           0x00000000        0x0 build/hu_lib.o
+ .debug_info    0x00000000      0x754 build/hu_lib.o
+ .debug_abbrev  0x00000000      0x248 build/hu_lib.o
+ .debug_aranges
+                0x00000000       0x20 build/hu_lib.o
+ .debug_line    0x00000000      0x418 build/hu_lib.o
+ .debug_str     0x00000000      0x3d5 build/hu_lib.o
+ .comment       0x00000000       0x2c build/hu_lib.o
+ .note.GNU-stack
+                0x00000000        0x0 build/hu_lib.o
+ .debug_frame   0x00000000      0x2e8 build/hu_lib.o
+ .ARM.attributes
+                0x00000000       0x2e build/hu_lib.o
+ .text          0x00000000      0x838 build/hu_stuff.o
+ .data          0x00000000      0x26c build/hu_stuff.o
+ .bss           0x00000000      0x689 build/hu_stuff.o
+ .rodata        0x00000000      0xcfe build/hu_stuff.o
+ .debug_info    0x00000000     0x39bd build/hu_stuff.o
+ .debug_abbrev  0x00000000      0x344 build/hu_stuff.o
+ .debug_aranges
+                0x00000000       0x20 build/hu_stuff.o
+ .debug_line    0x00000000      0x5a0 build/hu_stuff.o
+ .debug_str     0x00000000     0x492b build/hu_stuff.o
+ .comment       0x00000000       0x2c build/hu_stuff.o
+ .note.GNU-stack
+                0x00000000        0x0 build/hu_stuff.o
+ .debug_frame   0x00000000      0x150 build/hu_stuff.o
+ .ARM.attributes
+                0x00000000       0x2e build/hu_stuff.o
+ .text          0x00000000        0x0 build/info.o
+ .data          0x00000000     0x9d2c build/info.o
+ .bss           0x00000000        0x0 build/info.o
+ .rodata        0x00000000      0x44d build/info.o
+ .debug_info    0x00000000     0x2a63 build/info.o
+ .debug_abbrev  0x00000000      0x192 build/info.o
+ .debug_aranges
+                0x00000000       0x18 build/info.o
+ .debug_line    0x00000000       0x56 build/info.o
+ .debug_str     0x00000000     0x41f5 build/info.o
+ .comment       0x00000000       0x2c build/info.o
+ .note.GNU-stack
+                0x00000000        0x0 build/info.o
+ .ARM.attributes
+                0x00000000       0x2e build/info.o
+ .text          0x00000000       0x98 build/i_cdmus.o
+ .data          0x00000000        0x0 build/i_cdmus.o
+ .bss           0x00000000        0x4 build/i_cdmus.o
+ .debug_info    0x00000000      0x179 build/i_cdmus.o
+ .debug_abbrev  0x00000000       0xb3 build/i_cdmus.o
+ .debug_aranges
+                0x00000000       0x20 build/i_cdmus.o
+ .debug_line    0x00000000       0x94 build/i_cdmus.o
+ .debug_str     0x00000000      0x1eb build/i_cdmus.o
+ .comment       0x00000000       0x2c build/i_cdmus.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_cdmus.o
+ .debug_frame   0x00000000      0x148 build/i_cdmus.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_cdmus.o
+ .text          0x00000000       0x12 build/i_endoom.o
+ .data          0x00000000        0x0 build/i_endoom.o
+ .bss           0x00000000        0x0 build/i_endoom.o
+ .debug_info    0x00000000       0xbb build/i_endoom.o
+ .debug_abbrev  0x00000000       0x6c build/i_endoom.o
+ .debug_aranges
+                0x00000000       0x20 build/i_endoom.o
+ .debug_line    0x00000000       0x8d build/i_endoom.o
+ .debug_str     0x00000000      0x167 build/i_endoom.o
+ .comment       0x00000000       0x2c build/i_endoom.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_endoom.o
+ .debug_frame   0x00000000       0x38 build/i_endoom.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_endoom.o
+ .text          0x00000000       0xec build/i_joystick.o
+ .data          0x00000000       0x34 build/i_joystick.o
+ .bss           0x00000000       0x14 build/i_joystick.o
+ .rodata        0x00000000       0xb3 build/i_joystick.o
+ .debug_info    0x00000000      0x1ec build/i_joystick.o
+ .debug_abbrev  0x00000000      0x128 build/i_joystick.o
+ .debug_aranges
+                0x00000000       0x20 build/i_joystick.o
+ .debug_line    0x00000000       0xd0 build/i_joystick.o
+ .debug_str     0x00000000      0x257 build/i_joystick.o
+ .comment       0x00000000       0x2c build/i_joystick.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_joystick.o
+ .debug_frame   0x00000000       0x94 build/i_joystick.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_joystick.o
+ .text          0x00000000     0x2134 build/i_scale.o
+ .data          0x00000000      0x12c build/i_scale.o
+ .bss           0x00000000       0x18 build/i_scale.o
+ .rodata        0x00000000       0xda build/i_scale.o
+ .debug_info    0x00000000     0x1611 build/i_scale.o
+ .debug_abbrev  0x00000000      0x2f3 build/i_scale.o
+ .debug_aranges
+                0x00000000       0x20 build/i_scale.o
+ .debug_line    0x00000000     0x10db build/i_scale.o
+ .debug_str     0x00000000      0x7c1 build/i_scale.o
+ .comment       0x00000000       0x2c build/i_scale.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_scale.o
+ .debug_frame   0x00000000      0x52c build/i_scale.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_scale.o
+ .text          0x00000000      0x540 build/i_sound.o
+ .data          0x00000000       0x18 build/i_sound.o
+ .bss           0x00000000       0x1c build/i_sound.o
+ .rodata        0x00000000       0xb6 build/i_sound.o
+ .debug_info    0x00000000      0x917 build/i_sound.o
+ .debug_abbrev  0x00000000      0x2f2 build/i_sound.o
+ .debug_aranges
+                0x00000000       0x20 build/i_sound.o
+ .debug_line    0x00000000      0x2e3 build/i_sound.o
+ .debug_str     0x00000000      0x66c build/i_sound.o
+ .comment       0x00000000       0x2c build/i_sound.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_sound.o
+ .debug_frame   0x00000000      0x334 build/i_sound.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_sound.o
+ .text          0x00000000      0x608 build/i_system.o
+ .data          0x00000000        0x8 build/i_system.o
+ .bss           0x00000000       0x18 build/i_system.o
+ .rodata        0x00000000      0x247 build/i_system.o
+ .debug_info    0x00000000      0xa1b build/i_system.o
+ .debug_abbrev  0x00000000      0x307 build/i_system.o
+ .debug_aranges
+                0x00000000       0x20 build/i_system.o
+ .debug_line    0x00000000      0x469 build/i_system.o
+ .debug_str     0x00000000      0x62c build/i_system.o
+ .comment       0x00000000       0x2c build/i_system.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_system.o
+ .debug_frame   0x00000000      0x20c build/i_system.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_system.o
+ .text          0x00000000       0xc0 build/i_timer.o
+ .data          0x00000000        0x0 build/i_timer.o
+ .bss           0x00000000        0x4 build/i_timer.o
+ .debug_info    0x00000000      0x178 build/i_timer.o
+ .debug_abbrev  0x00000000      0x12b build/i_timer.o
+ .debug_aranges
+                0x00000000       0x20 build/i_timer.o
+ .debug_line    0x00000000       0xd5 build/i_timer.o
+ .debug_str     0x00000000      0x1b4 build/i_timer.o
+ .comment       0x00000000       0x2c build/i_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_timer.o
+ .debug_frame   0x00000000       0xe0 build/i_timer.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_timer.o
+ .text          0x00000000      0x298 build/memio.o
+ .data          0x00000000        0x0 build/memio.o
+ .bss           0x00000000        0x0 build/memio.o
+ .rodata        0x00000000       0x29 build/memio.o
+ .debug_info    0x00000000      0x42b build/memio.o
+ .debug_abbrev  0x00000000      0x1c9 build/memio.o
+ .debug_aranges
+                0x00000000       0x20 build/memio.o
+ .debug_line    0x00000000      0x205 build/memio.o
+ .debug_str     0x00000000      0x2d6 build/memio.o
+ .comment       0x00000000       0x2c build/memio.o
+ .note.GNU-stack
+                0x00000000        0x0 build/memio.o
+ .debug_frame   0x00000000      0x138 build/memio.o
+ .ARM.attributes
+                0x00000000       0x2e build/memio.o
+ .text          0x00000000      0x11c build/m_argv.o
+ .data          0x00000000        0x0 build/m_argv.o
+ .bss           0x00000000        0x8 build/m_argv.o
+ .debug_info    0x00000000      0x21e build/m_argv.o
+ .debug_abbrev  0x00000000      0x159 build/m_argv.o
+ .debug_aranges
+                0x00000000       0x20 build/m_argv.o
+ .debug_line    0x00000000      0x10d build/m_argv.o
+ .debug_str     0x00000000      0x1f6 build/m_argv.o
+ .comment       0x00000000       0x2c build/m_argv.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_argv.o
+ .debug_frame   0x00000000       0xec build/m_argv.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_argv.o
+ .text          0x00000000       0x9a build/m_bbox.o
+ .data          0x00000000        0x0 build/m_bbox.o
+ .bss           0x00000000        0x0 build/m_bbox.o
+ .debug_info    0x00000000       0xcc build/m_bbox.o
+ .debug_abbrev  0x00000000       0xa4 build/m_bbox.o
+ .debug_aranges
+                0x00000000       0x20 build/m_bbox.o
+ .debug_line    0x00000000       0xa5 build/m_bbox.o
+ .debug_str     0x00000000      0x101 build/m_bbox.o
+ .comment       0x00000000       0x2c build/m_bbox.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_bbox.o
+ .debug_frame   0x00000000       0x60 build/m_bbox.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_bbox.o
+ .text          0x00000000       0xe4 build/m_cheat.o
+ .data          0x00000000        0x0 build/m_cheat.o
+ .bss           0x00000000        0x0 build/m_cheat.o
+ .debug_info    0x00000000      0x1d8 build/m_cheat.o
+ .debug_abbrev  0x00000000      0x143 build/m_cheat.o
+ .debug_aranges
+                0x00000000       0x20 build/m_cheat.o
+ .debug_line    0x00000000      0x151 build/m_cheat.o
+ .debug_str     0x00000000      0x1c7 build/m_cheat.o
+ .comment       0x00000000       0x2c build/m_cheat.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_cheat.o
+ .debug_frame   0x00000000       0x5c build/m_cheat.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_cheat.o
+ .text          0x00000000      0x528 build/m_config.o
+ .data          0x00000000     0x1260 build/m_config.o
+ .bss           0x00000000        0xc build/m_config.o
+ .rodata        0x00000000      0xf54 build/m_config.o
+ .debug_info    0x00000000      0x727 build/m_config.o
+ .debug_abbrev  0x00000000      0x277 build/m_config.o
+ .debug_aranges
+                0x00000000       0x20 build/m_config.o
+ .debug_line    0x00000000      0x34a build/m_config.o
+ .debug_str     0x00000000      0x4f2 build/m_config.o
+ .comment       0x00000000       0x2c build/m_config.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_config.o
+ .debug_frame   0x00000000      0x2a0 build/m_config.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_config.o
+ .text          0x00000000      0x7f0 build/m_controls.o
+ .data          0x00000000      0x19c build/m_controls.o
+ .bss           0x00000000       0x34 build/m_controls.o
+ .rodata        0x00000000      0x6c6 build/m_controls.o
+ .debug_info    0x00000000      0x887 build/m_controls.o
+ .debug_abbrev  0x00000000      0x14d build/m_controls.o
+ .debug_aranges
+                0x00000000       0x20 build/m_controls.o
+ .debug_line    0x00000000      0x16e build/m_controls.o
+ .debug_str     0x00000000      0x80a build/m_controls.o
+ .comment       0x00000000       0x2c build/m_controls.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_controls.o
+ .debug_frame   0x00000000      0x118 build/m_controls.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_controls.o
+ .text          0x00000000       0xbc build/m_fixed.o
+ .data          0x00000000        0x0 build/m_fixed.o
+ .bss           0x00000000        0x0 build/m_fixed.o
+ .debug_info    0x00000000      0x12a build/m_fixed.o
+ .debug_abbrev  0x00000000       0xbb build/m_fixed.o
+ .debug_aranges
+                0x00000000       0x20 build/m_fixed.o
+ .debug_line    0x00000000      0x101 build/m_fixed.o
+ .debug_str     0x00000000      0x171 build/m_fixed.o
+ .comment       0x00000000       0x2c build/m_fixed.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_fixed.o
+ .debug_frame   0x00000000       0x78 build/m_fixed.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_fixed.o
+ .text          0x00000000     0x21f4 build/m_menu.o
+ .data          0x00000000      0x4f4 build/m_menu.o
+ .bss           0x00000000      0x280 build/m_menu.o
+ .rodata        0x00000000      0x45c build/m_menu.o
+ .debug_info    0x00000000     0x4a72 build/m_menu.o
+ .debug_abbrev  0x00000000      0x3c7 build/m_menu.o
+ .debug_aranges
+                0x00000000       0x20 build/m_menu.o
+ .debug_line    0x00000000     0x11db build/m_menu.o
+ .debug_str     0x00000000     0x5303 build/m_menu.o
+ .comment       0x00000000       0x2c build/m_menu.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_menu.o
+ .debug_frame   0x00000000      0x7e0 build/m_menu.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_menu.o
+ .text          0x00000000      0x68c build/m_misc.o
+ .data          0x00000000        0x0 build/m_misc.o
+ .bss           0x00000000        0x0 build/m_misc.o
+ .rodata        0x00000000      0x101 build/m_misc.o
+ .debug_info    0x00000000      0xbe8 build/m_misc.o
+ .debug_abbrev  0x00000000      0x26d build/m_misc.o
+ .debug_aranges
+                0x00000000       0x20 build/m_misc.o
+ .debug_line    0x00000000      0x544 build/m_misc.o
+ .debug_str     0x00000000      0x646 build/m_misc.o
+ .comment       0x00000000       0x2c build/m_misc.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_misc.o
+ .debug_frame   0x00000000      0x2ec build/m_misc.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_misc.o
+ .text          0x00000000       0x74 build/m_random.o
+ .data          0x00000000        0x0 build/m_random.o
+ .bss           0x00000000        0x8 build/m_random.o
+ .rodata        0x00000000      0x100 build/m_random.o
+ .debug_info    0x00000000       0xc2 build/m_random.o
+ .debug_abbrev  0x00000000       0x9f build/m_random.o
+ .debug_aranges
+                0x00000000       0x20 build/m_random.o
+ .debug_line    0x00000000       0x65 build/m_random.o
+ .debug_str     0x00000000      0x10d build/m_random.o
+ .comment       0x00000000       0x2c build/m_random.o
+ .note.GNU-stack
+                0x00000000        0x0 build/m_random.o
+ .debug_frame   0x00000000       0x70 build/m_random.o
+ .ARM.attributes
+                0x00000000       0x2e build/m_random.o
+ .text          0x00000000      0x488 build/p_ceilng.o
+ .data          0x00000000        0x0 build/p_ceilng.o
+ .bss           0x00000000       0x78 build/p_ceilng.o
+ .debug_info    0x00000000     0x3384 build/p_ceilng.o
+ .debug_abbrev  0x00000000      0x338 build/p_ceilng.o
+ .debug_aranges
+                0x00000000       0x20 build/p_ceilng.o
+ .debug_line    0x00000000      0x3c1 build/p_ceilng.o
+ .debug_str     0x00000000     0x456b build/p_ceilng.o
+ .comment       0x00000000       0x2c build/p_ceilng.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_ceilng.o
+ .debug_frame   0x00000000       0xf8 build/p_ceilng.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_ceilng.o
+ .text          0x00000000      0x940 build/p_doors.o
+ .data          0x00000000        0x0 build/p_doors.o
+ .bss           0x00000000        0x0 build/p_doors.o
+ .rodata        0x00000000      0x13f build/p_doors.o
+ .debug_info    0x00000000     0x374c build/p_doors.o
+ .debug_abbrev  0x00000000      0x2f8 build/p_doors.o
+ .debug_aranges
+                0x00000000       0x20 build/p_doors.o
+ .debug_line    0x00000000      0x63d build/p_doors.o
+ .debug_str     0x00000000     0x475e build/p_doors.o
+ .comment       0x00000000       0x2c build/p_doors.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_doors.o
+ .debug_frame   0x00000000       0xf0 build/p_doors.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_doors.o
+ .text          0x00000000     0x23e8 build/p_enemy.o
+ .data          0x00000000       0x78 build/p_enemy.o
+ .bss           0x00000000       0xa0 build/p_enemy.o
+ .rodata        0x00000000       0x3d build/p_enemy.o
+ .debug_info    0x00000000     0x496d build/p_enemy.o
+ .debug_abbrev  0x00000000      0x3fc build/p_enemy.o
+ .debug_aranges
+                0x00000000       0x20 build/p_enemy.o
+ .debug_line    0x00000000     0x16fb build/p_enemy.o
+ .debug_str     0x00000000     0x4ec9 build/p_enemy.o
+ .comment       0x00000000       0x2c build/p_enemy.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_enemy.o
+ .debug_frame   0x00000000      0x964 build/p_enemy.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_enemy.o
+ .text          0x00000000      0x8e8 build/p_floor.o
+ .data          0x00000000        0x0 build/p_floor.o
+ .bss           0x00000000        0x0 build/p_floor.o
+ .debug_info    0x00000000     0x34ba build/p_floor.o
+ .debug_abbrev  0x00000000      0x2b2 build/p_floor.o
+ .debug_aranges
+                0x00000000       0x20 build/p_floor.o
+ .debug_line    0x00000000      0x65a build/p_floor.o
+ .debug_str     0x00000000     0x45a1 build/p_floor.o
+ .comment       0x00000000       0x2c build/p_floor.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_floor.o
+ .debug_frame   0x00000000       0xac build/p_floor.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_floor.o
+ .text          0x00000000     0x1214 build/p_inter.o
+ .data          0x00000000       0x20 build/p_inter.o
+ .bss           0x00000000        0x0 build/p_inter.o
+ .rodata        0x00000000      0x417 build/p_inter.o
+ .debug_info    0x00000000     0x374a build/p_inter.o
+ .debug_abbrev  0x00000000      0x33f build/p_inter.o
+ .debug_aranges
+                0x00000000       0x20 build/p_inter.o
+ .debug_line    0x00000000      0xa5f build/p_inter.o
+ .debug_str     0x00000000     0x4847 build/p_inter.o
+ .comment       0x00000000       0x2c build/p_inter.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_inter.o
+ .debug_frame   0x00000000      0x16c build/p_inter.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_inter.o
+ .text          0x00000000      0x584 build/p_lights.o
+ .data          0x00000000        0x0 build/p_lights.o
+ .bss           0x00000000        0x0 build/p_lights.o
+ .debug_info    0x00000000     0x319e build/p_lights.o
+ .debug_abbrev  0x00000000      0x2dc build/p_lights.o
+ .debug_aranges
+                0x00000000       0x20 build/p_lights.o
+ .debug_line    0x00000000      0x4eb build/p_lights.o
+ .debug_str     0x00000000     0x3fdc build/p_lights.o
+ .comment       0x00000000       0x2c build/p_lights.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_lights.o
+ .debug_frame   0x00000000      0x1a4 build/p_lights.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_lights.o
+ .text          0x00000000     0x194c build/p_map.o
+ .data          0x00000000        0x0 build/p_map.o
+ .bss           0x00000000       0xd8 build/p_map.o
+ .rodata        0x00000000       0x76 build/p_map.o
+ .debug_info    0x00000000     0x4386 build/p_map.o
+ .debug_abbrev  0x00000000      0x3f7 build/p_map.o
+ .debug_aranges
+                0x00000000       0x20 build/p_map.o
+ .debug_line    0x00000000      0xf94 build/p_map.o
+ .debug_str     0x00000000     0x4c54 build/p_map.o
+ .comment       0x00000000       0x2c build/p_map.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_map.o
+ .debug_frame   0x00000000      0x31c build/p_map.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_map.o
+ .text          0x00000000      0xeb4 build/p_maputl.o
+ .data          0x00000000      0x114 build/p_maputl.o
+ .bss           0x00000000      0x908 build/p_maputl.o
+ .debug_info    0x00000000     0x38a9 build/p_maputl.o
+ .debug_abbrev  0x00000000      0x383 build/p_maputl.o
+ .debug_aranges
+                0x00000000       0x20 build/p_maputl.o
+ .debug_line    0x00000000      0x91c build/p_maputl.o
+ .debug_str     0x00000000     0x4395 build/p_maputl.o
+ .comment       0x00000000       0x2c build/p_maputl.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_maputl.o
+ .debug_frame   0x00000000      0x28c build/p_maputl.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_maputl.o
+ .text          0x00000000     0x13d0 build/p_mobj.o
+ .data          0x00000000        0x0 build/p_mobj.o
+ .bss           0x00000000      0x7a8 build/p_mobj.o
+ .rodata        0x00000000       0x2d build/p_mobj.o
+ .debug_info    0x00000000     0x3bfb build/p_mobj.o
+ .debug_abbrev  0x00000000      0x36e build/p_mobj.o
+ .debug_aranges
+                0x00000000       0x20 build/p_mobj.o
+ .debug_line    0x00000000      0xd0f build/p_mobj.o
+ .debug_str     0x00000000     0x49e4 build/p_mobj.o
+ .comment       0x00000000       0x2c build/p_mobj.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_mobj.o
+ .debug_frame   0x00000000      0x290 build/p_mobj.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_mobj.o
+ .text          0x00000000      0x5b8 build/p_plats.o
+ .data          0x00000000        0x0 build/p_plats.o
+ .bss           0x00000000       0x78 build/p_plats.o
+ .rodata        0x00000000       0x45 build/p_plats.o
+ .debug_info    0x00000000     0x3485 build/p_plats.o
+ .debug_abbrev  0x00000000      0x323 build/p_plats.o
+ .debug_aranges
+                0x00000000       0x20 build/p_plats.o
+ .debug_line    0x00000000      0x494 build/p_plats.o
+ .debug_str     0x00000000     0x45dd build/p_plats.o
+ .comment       0x00000000       0x2c build/p_plats.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_plats.o
+ .debug_frame   0x00000000       0xf8 build/p_plats.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_plats.o
+ .text          0x00000000      0xf4c build/p_pspr.o
+ .data          0x00000000        0x0 build/p_pspr.o
+ .bss           0x00000000        0xc build/p_pspr.o
+ .debug_info    0x00000000     0x3b4b build/p_pspr.o
+ .debug_abbrev  0x00000000      0x359 build/p_pspr.o
+ .debug_aranges
+                0x00000000       0x20 build/p_pspr.o
+ .debug_line    0x00000000      0x90f build/p_pspr.o
+ .debug_str     0x00000000     0x482a build/p_pspr.o
+ .comment       0x00000000       0x2c build/p_pspr.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_pspr.o
+ .debug_frame   0x00000000      0x498 build/p_pspr.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_pspr.o
+ .text          0x00000000     0x1e48 build/p_saveg.o
+ .data          0x00000000        0x0 build/p_saveg.o
+ .bss           0x00000000       0x1c build/p_saveg.o
+ .rodata        0x00000000       0xf2 build/p_saveg.o
+ .debug_info    0x00000000     0x43f6 build/p_saveg.o
+ .debug_abbrev  0x00000000      0x43c build/p_saveg.o
+ .debug_aranges
+                0x00000000       0x20 build/p_saveg.o
+ .debug_line    0x00000000     0x12d3 build/p_saveg.o
+ .debug_str     0x00000000     0x4b41 build/p_saveg.o
+ .comment       0x00000000       0x2c build/p_saveg.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_saveg.o
+ .debug_frame   0x00000000      0x750 build/p_saveg.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_saveg.o
+ .text          0x00000000     0x1160 build/p_setup.o
+ .data          0x00000000        0x0 build/p_setup.o
+ .bss           0x00000000      0x148 build/p_setup.o
+ .rodata        0x00000000       0x5e build/p_setup.o
+ .debug_info    0x00000000     0x419e build/p_setup.o
+ .debug_abbrev  0x00000000      0x35b build/p_setup.o
+ .debug_aranges
+                0x00000000       0x20 build/p_setup.o
+ .debug_line    0x00000000      0xbfc build/p_setup.o
+ .debug_str     0x00000000     0x47c0 build/p_setup.o
+ .comment       0x00000000       0x2c build/p_setup.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_setup.o
+ .debug_frame   0x00000000      0x224 build/p_setup.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_setup.o
+ .text          0x00000000      0x5c0 build/p_sight.o
+ .data          0x00000000        0x0 build/p_sight.o
+ .bss           0x00000000       0x2c build/p_sight.o
+ .rodata        0x00000000       0x28 build/p_sight.o
+ .debug_info    0x00000000     0x32ac build/p_sight.o
+ .debug_abbrev  0x00000000      0x2f9 build/p_sight.o
+ .debug_aranges
+                0x00000000       0x20 build/p_sight.o
+ .debug_line    0x00000000      0x413 build/p_sight.o
+ .debug_str     0x00000000     0x4078 build/p_sight.o
+ .comment       0x00000000       0x2c build/p_sight.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_sight.o
+ .debug_frame   0x00000000       0xd0 build/p_sight.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_sight.o
+ .text          0x00000000     0x1548 build/p_spec.o
+ .data          0x00000000      0x288 build/p_spec.o
+ .bss           0x00000000      0x398 build/p_spec.o
+ .rodata        0x00000000      0x244 build/p_spec.o
+ .debug_info    0x00000000     0x4367 build/p_spec.o
+ .debug_abbrev  0x00000000      0x3e7 build/p_spec.o
+ .debug_aranges
+                0x00000000       0x20 build/p_spec.o
+ .debug_line    0x00000000      0xb68 build/p_spec.o
+ .debug_str     0x00000000     0x4e1a build/p_spec.o
+ .comment       0x00000000       0x2c build/p_spec.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_spec.o
+ .debug_frame   0x00000000      0x2e0 build/p_spec.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_spec.o
+ .text          0x00000000      0xc68 build/p_switch.o
+ .data          0x00000000      0x334 build/p_switch.o
+ .bss           0x00000000      0x2d4 build/p_switch.o
+ .rodata        0x00000000       0x25 build/p_switch.o
+ .debug_info    0x00000000     0x358e build/p_switch.o
+ .debug_abbrev  0x00000000      0x2de build/p_switch.o
+ .debug_aranges
+                0x00000000       0x20 build/p_switch.o
+ .debug_line    0x00000000      0x6b0 build/p_switch.o
+ .debug_str     0x00000000     0x47af build/p_switch.o
+ .comment       0x00000000       0x2c build/p_switch.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_switch.o
+ .debug_frame   0x00000000       0xa8 build/p_switch.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_switch.o
+ .text          0x00000000      0x1e0 build/p_telept.o
+ .data          0x00000000        0x0 build/p_telept.o
+ .bss           0x00000000        0x0 build/p_telept.o
+ .debug_info    0x00000000     0x31ed build/p_telept.o
+ .debug_abbrev  0x00000000      0x226 build/p_telept.o
+ .debug_aranges
+                0x00000000       0x20 build/p_telept.o
+ .debug_line    0x00000000      0x250 build/p_telept.o
+ .debug_str     0x00000000     0x44da build/p_telept.o
+ .comment       0x00000000       0x2c build/p_telept.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_telept.o
+ .debug_frame   0x00000000       0x34 build/p_telept.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_telept.o
+ .text          0x00000000      0x194 build/p_tick.o
+ .data          0x00000000        0x0 build/p_tick.o
+ .bss           0x00000000       0x10 build/p_tick.o
+ .debug_info    0x00000000     0x2eb9 build/p_tick.o
+ .debug_abbrev  0x00000000      0x255 build/p_tick.o
+ .debug_aranges
+                0x00000000       0x20 build/p_tick.o
+ .debug_line    0x00000000      0x200 build/p_tick.o
+ .debug_str     0x00000000     0x3f9c build/p_tick.o
+ .comment       0x00000000       0x2c build/p_tick.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_tick.o
+ .debug_frame   0x00000000       0xf0 build/p_tick.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_tick.o
+ .text          0x00000000      0x6b4 build/p_user.o
+ .data          0x00000000        0x0 build/p_user.o
+ .bss           0x00000000        0x4 build/p_user.o
+ .debug_info    0x00000000     0x30d9 build/p_user.o
+ .debug_abbrev  0x00000000      0x264 build/p_user.o
+ .debug_aranges
+                0x00000000       0x20 build/p_user.o
+ .debug_line    0x00000000      0x595 build/p_user.o
+ .debug_str     0x00000000     0x41b5 build/p_user.o
+ .comment       0x00000000       0x2c build/p_user.o
+ .note.GNU-stack
+                0x00000000        0x0 build/p_user.o
+ .debug_frame   0x00000000       0xcc build/p_user.o
+ .ARM.attributes
+                0x00000000       0x2e build/p_user.o
+ .text          0x00000000      0x80c build/r_bsp.o
+ .data          0x00000000       0xc0 build/r_bsp.o
+ .bss           0x00000000     0x311c build/r_bsp.o
+ .rodata        0x00000000       0x23 build/r_bsp.o
+ .debug_info    0x00000000     0x3596 build/r_bsp.o
+ .debug_abbrev  0x00000000      0x35b build/r_bsp.o
+ .debug_aranges
+                0x00000000       0x20 build/r_bsp.o
+ .debug_line    0x00000000      0x585 build/r_bsp.o
+ .debug_str     0x00000000     0x41fb build/r_bsp.o
+ .comment       0x00000000       0x2c build/r_bsp.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_bsp.o
+ .debug_frame   0x00000000      0x128 build/r_bsp.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_bsp.o
+ .text          0x00000000     0x106c build/r_data.o
+ .data          0x00000000        0x0 build/r_data.o
+ .bss           0x00000000       0x6c build/r_data.o
+ .rodata        0x00000000      0x15a build/r_data.o
+ .debug_info    0x00000000     0x3cc5 build/r_data.o
+ .debug_abbrev  0x00000000      0x363 build/r_data.o
+ .debug_aranges
+                0x00000000       0x20 build/r_data.o
+ .debug_line    0x00000000      0xa53 build/r_data.o
+ .debug_str     0x00000000     0x45b6 build/r_data.o
+ .comment       0x00000000       0x2c build/r_data.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_data.o
+ .debug_frame   0x00000000      0x208 build/r_data.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_data.o
+ .text          0x00000000      0xe24 build/r_draw.o
+ .data          0x00000000       0xc8 build/r_draw.o
+ .bss           0x00000000     0x21f0 build/r_draw.o
+ .rodata        0x00000000       0xb4 build/r_draw.o
+ .debug_info    0x00000000     0x2874 build/r_draw.o
+ .debug_abbrev  0x00000000      0x258 build/r_draw.o
+ .debug_aranges
+                0x00000000       0x20 build/r_draw.o
+ .debug_line    0x00000000      0x822 build/r_draw.o
+ .debug_str     0x00000000     0x37cb build/r_draw.o
+ .comment       0x00000000       0x2c build/r_draw.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_draw.o
+ .debug_frame   0x00000000      0x1f0 build/r_draw.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_draw.o
+ .text          0x00000000      0xce0 build/r_main.o
+ .data          0x00000000        0x4 build/r_main.o
+ .bss           0x00000000     0x7238 build/r_main.o
+ .rodata        0x00000000        0x2 build/r_main.o
+ .debug_info    0x00000000     0x3a93 build/r_main.o
+ .debug_abbrev  0x00000000      0x3c1 build/r_main.o
+ .debug_aranges
+                0x00000000       0x20 build/r_main.o
+ .debug_line    0x00000000      0x79d build/r_main.o
+ .debug_str     0x00000000     0x4485 build/r_main.o
+ .comment       0x00000000       0x2c build/r_main.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_main.o
+ .debug_frame   0x00000000      0x274 build/r_main.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_main.o
+ .text          0x00000000      0x820 build/r_plane.o
+ .data          0x00000000        0x0 build/r_plane.o
+ .bss           0x00000000    0x20c08 build/r_plane.o
+ .rodata        0x00000000       0xb0 build/r_plane.o
+ .debug_info    0x00000000     0x37af build/r_plane.o
+ .debug_abbrev  0x00000000      0x387 build/r_plane.o
+ .debug_aranges
+                0x00000000       0x20 build/r_plane.o
+ .debug_line    0x00000000      0x584 build/r_plane.o
+ .debug_str     0x00000000     0x437e build/r_plane.o
+ .comment       0x00000000       0x2c build/r_plane.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_plane.o
+ .debug_frame   0x00000000      0x110 build/r_plane.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_plane.o
+ .text          0x00000000     0x12e0 build/r_segs.o
+ .data          0x00000000        0x0 build/r_segs.o
+ .bss           0x00000000       0x84 build/r_segs.o
+ .rodata        0x00000000       0x20 build/r_segs.o
+ .debug_info    0x00000000     0x374e build/r_segs.o
+ .debug_abbrev  0x00000000      0x333 build/r_segs.o
+ .debug_aranges
+                0x00000000       0x20 build/r_segs.o
+ .debug_line    0x00000000      0xa28 build/r_segs.o
+ .debug_str     0x00000000     0x4378 build/r_segs.o
+ .comment       0x00000000       0x2c build/r_segs.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_segs.o
+ .debug_frame   0x00000000       0x88 build/r_segs.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_segs.o
+ .text          0x00000000       0x18 build/r_sky.o
+ .data          0x00000000        0x0 build/r_sky.o
+ .bss           0x00000000        0xc build/r_sky.o
+ .debug_info    0x00000000     0x1ea5 build/r_sky.o
+ .debug_abbrev  0x00000000       0xb6 build/r_sky.o
+ .debug_aranges
+                0x00000000       0x20 build/r_sky.o
+ .debug_line    0x00000000       0x6d build/r_sky.o
+ .debug_str     0x00000000     0x3403 build/r_sky.o
+ .comment       0x00000000       0x2c build/r_sky.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_sky.o
+ .debug_frame   0x00000000       0x30 build/r_sky.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_sky.o
+ .text          0x00000000     0x12f4 build/r_things.o
+ .data          0x00000000        0x0 build/r_things.o
+ .bss           0x00000000     0x2bd8 build/r_things.o
+ .rodata        0x00000000      0x1df build/r_things.o
+ .debug_info    0x00000000     0x3ef8 build/r_things.o
+ .debug_abbrev  0x00000000      0x38f build/r_things.o
+ .debug_aranges
+                0x00000000       0x20 build/r_things.o
+ .debug_line    0x00000000      0xb95 build/r_things.o
+ .debug_str     0x00000000     0x4762 build/r_things.o
+ .comment       0x00000000       0x2c build/r_things.o
+ .note.GNU-stack
+                0x00000000        0x0 build/r_things.o
+ .debug_frame   0x00000000      0x218 build/r_things.o
+ .ARM.attributes
+                0x00000000       0x2e build/r_things.o
+ .text          0x00000000     0x18a0 build/sha1.o
+ .data          0x00000000        0x0 build/sha1.o
+ .bss           0x00000000        0x0 build/sha1.o
+ .debug_info    0x00000000      0x3ae build/sha1.o
+ .debug_abbrev  0x00000000      0x1bb build/sha1.o
+ .debug_aranges
+                0x00000000       0x20 build/sha1.o
+ .debug_line    0x00000000      0x38a build/sha1.o
+ .debug_str     0x00000000      0x207 build/sha1.o
+ .comment       0x00000000       0x2c build/sha1.o
+ .note.GNU-stack
+                0x00000000        0x0 build/sha1.o
+ .debug_frame   0x00000000       0xf4 build/sha1.o
+ .ARM.attributes
+                0x00000000       0x2e build/sha1.o
+ .text          0x00000000        0x0 build/sounds.o
+ .data          0x00000000     0x18b0 build/sounds.o
+ .bss           0x00000000        0x0 build/sounds.o
+ .rodata        0x00000000      0x217 build/sounds.o
+ .debug_info    0x00000000      0x46f build/sounds.o
+ .debug_abbrev  0x00000000       0xd2 build/sounds.o
+ .debug_aranges
+                0x00000000       0x18 build/sounds.o
+ .debug_line    0x00000000       0x42 build/sounds.o
+ .debug_str     0x00000000      0x660 build/sounds.o
+ .comment       0x00000000       0x2c build/sounds.o
+ .note.GNU-stack
+                0x00000000        0x0 build/sounds.o
+ .ARM.attributes
+                0x00000000       0x2e build/sounds.o
+ .text          0x00000000       0x60 build/statdump.o
+ .data          0x00000000        0x0 build/statdump.o
+ .bss           0x00000000     0x1904 build/statdump.o
+ .rodata        0x00000000       0x52 build/statdump.o
+ .debug_info    0x00000000     0x209e build/statdump.o
+ .debug_abbrev  0x00000000      0x15d build/statdump.o
+ .debug_aranges
+                0x00000000       0x20 build/statdump.o
+ .debug_line    0x00000000      0x118 build/statdump.o
+ .debug_str     0x00000000     0x34f6 build/statdump.o
+ .comment       0x00000000       0x2c build/statdump.o
+ .note.GNU-stack
+                0x00000000        0x0 build/statdump.o
+ .debug_frame   0x00000000       0x54 build/statdump.o
+ .ARM.attributes
+                0x00000000       0x2e build/statdump.o
+ .text          0x00000000      0x4cc build/st_lib.o
+ .data          0x00000000        0x0 build/st_lib.o
+ .bss           0x00000000        0x4 build/st_lib.o
+ .rodata        0x00000000       0x64 build/st_lib.o
+ .debug_info    0x00000000     0x24bf build/st_lib.o
+ .debug_abbrev  0x00000000      0x201 build/st_lib.o
+ .debug_aranges
+                0x00000000       0x20 build/st_lib.o
+ .debug_line    0x00000000      0x327 build/st_lib.o
+ .debug_str     0x00000000     0x35eb build/st_lib.o
+ .comment       0x00000000       0x2c build/st_lib.o
+ .note.GNU-stack
+                0x00000000        0x0 build/st_lib.o
+ .debug_frame   0x00000000      0x188 build/st_lib.o
+ .ARM.attributes
+                0x00000000       0x2e build/st_lib.o
+ .text          0x00000000     0x16b8 build/st_stuff.o
+ .data          0x00000000      0x354 build/st_stuff.o
+ .bss           0x00000000      0x4c8 build/st_stuff.o
+ .rodata        0x00000000      0x1f8 build/st_stuff.o
+ .debug_info    0x00000000     0x412f build/st_stuff.o
+ .debug_abbrev  0x00000000      0x30f build/st_stuff.o
+ .debug_aranges
+                0x00000000       0x20 build/st_stuff.o
+ .debug_line    0x00000000      0xd1d build/st_stuff.o
+ .debug_str     0x00000000     0x4bb3 build/st_stuff.o
+ .comment       0x00000000       0x2c build/st_stuff.o
+ .note.GNU-stack
+                0x00000000        0x0 build/st_stuff.o
+ .debug_frame   0x00000000      0x314 build/st_stuff.o
+ .ARM.attributes
+                0x00000000       0x2e build/st_stuff.o
+ .text          0x00000000      0x954 build/s_sound.o
+ .data          0x00000000        0xc build/s_sound.o
+ .bss           0x00000000       0x10 build/s_sound.o
+ .rodata        0x00000000       0x91 build/s_sound.o
+ .debug_info    0x00000000     0x3b1f build/s_sound.o
+ .debug_abbrev  0x00000000      0x390 build/s_sound.o
+ .debug_aranges
+                0x00000000       0x20 build/s_sound.o
+ .debug_line    0x00000000      0x685 build/s_sound.o
+ .debug_str     0x00000000     0x4b53 build/s_sound.o
+ .comment       0x00000000       0x2c build/s_sound.o
+ .note.GNU-stack
+                0x00000000        0x0 build/s_sound.o
+ .debug_frame   0x00000000      0x258 build/s_sound.o
+ .ARM.attributes
+                0x00000000       0x2e build/s_sound.o
+ .text          0x00000000       0x40 build/tables.o
+ .data          0x00000000        0x4 build/tables.o
+ .bss           0x00000000        0x0 build/tables.o
+ .rodata        0x00000000    0x10504 build/tables.o
+ .debug_info    0x00000000      0x1c5 build/tables.o
+ .debug_abbrev  0x00000000       0xd6 build/tables.o
+ .debug_aranges
+                0x00000000       0x20 build/tables.o
+ .debug_line    0x00000000       0xba build/tables.o
+ .debug_str     0x00000000      0x17e build/tables.o
+ .comment       0x00000000       0x2c build/tables.o
+ .note.GNU-stack
+                0x00000000        0x0 build/tables.o
+ .debug_frame   0x00000000       0x38 build/tables.o
+ .ARM.attributes
+                0x00000000       0x2e build/tables.o
+ .text          0x00000000      0xf94 build/v_video.o
+ .data          0x00000000        0x0 build/v_video.o
+ .bss           0x00000000       0x20 build/v_video.o
+ .rodata        0x00000000      0x110 build/v_video.o
+ .debug_info    0x00000000      0xec6 build/v_video.o
+ .debug_abbrev  0x00000000      0x2c7 build/v_video.o
+ .debug_aranges
+                0x00000000       0x20 build/v_video.o
+ .debug_line    0x00000000      0x8b0 build/v_video.o
+ .debug_str     0x00000000      0x5ff build/v_video.o
+ .comment       0x00000000       0x2c build/v_video.o
+ .note.GNU-stack
+                0x00000000        0x0 build/v_video.o
+ .debug_frame   0x00000000      0x378 build/v_video.o
+ .ARM.attributes
+                0x00000000       0x2e build/v_video.o
+ .text          0x00000000     0x24e4 build/wi_stuff.o
+ .data          0x00000000      0x6b8 build/wi_stuff.o
+ .bss           0x00000000      0x180 build/wi_stuff.o
+ .rodata        0x00000000      0x14d build/wi_stuff.o
+ .debug_info    0x00000000     0x42c9 build/wi_stuff.o
+ .debug_abbrev  0x00000000      0x352 build/wi_stuff.o
+ .debug_aranges
+                0x00000000       0x20 build/wi_stuff.o
+ .debug_line    0x00000000     0x12a5 build/wi_stuff.o
+ .debug_str     0x00000000     0x4dce build/wi_stuff.o
+ .comment       0x00000000       0x2c build/wi_stuff.o
+ .note.GNU-stack
+                0x00000000        0x0 build/wi_stuff.o
+ .debug_frame   0x00000000      0x530 build/wi_stuff.o
+ .ARM.attributes
+                0x00000000       0x2e build/wi_stuff.o
+ .text          0x00000000      0x144 build/w_checksum.o
+ .data          0x00000000        0x0 build/w_checksum.o
+ .bss           0x00000000        0x8 build/w_checksum.o
+ .debug_info    0x00000000      0x458 build/w_checksum.o
+ .debug_abbrev  0x00000000      0x1c3 build/w_checksum.o
+ .debug_aranges
+                0x00000000       0x20 build/w_checksum.o
+ .debug_line    0x00000000      0x17c build/w_checksum.o
+ .debug_str     0x00000000      0x308 build/w_checksum.o
+ .comment       0x00000000       0x2c build/w_checksum.o
+ .note.GNU-stack
+                0x00000000        0x0 build/w_checksum.o
+ .debug_frame   0x00000000       0x7c build/w_checksum.o
+ .ARM.attributes
+                0x00000000       0x2e build/w_checksum.o
+ .text          0x00000000       0xac build/w_file.o
+ .data          0x00000000        0x4 build/w_file.o
+ .bss           0x00000000        0x0 build/w_file.o
+ .rodata        0x00000000        0x6 build/w_file.o
+ .debug_info    0x00000000      0x268 build/w_file.o
+ .debug_abbrev  0x00000000      0x16d build/w_file.o
+ .debug_aranges
+                0x00000000       0x20 build/w_file.o
+ .debug_line    0x00000000      0x102 build/w_file.o
+ .debug_str     0x00000000      0x218 build/w_file.o
+ .comment       0x00000000       0x2c build/w_file.o
+ .note.GNU-stack
+                0x00000000        0x0 build/w_file.o
+ .debug_frame   0x00000000       0x80 build/w_file.o
+ .ARM.attributes
+                0x00000000       0x2e build/w_file.o
+ .text          0x00000000       0x80 build/w_main.o
+ .data          0x00000000        0x0 build/w_main.o
+ .bss           0x00000000        0x0 build/w_main.o
+ .rodata        0x00000000       0x14 build/w_main.o
+ .debug_info    0x00000000      0x270 build/w_main.o
+ .debug_abbrev  0x00000000      0x158 build/w_main.o
+ .debug_aranges
+                0x00000000       0x20 build/w_main.o
+ .debug_line    0x00000000      0x133 build/w_main.o
+ .debug_str     0x00000000      0x232 build/w_main.o
+ .comment       0x00000000       0x2c build/w_main.o
+ .note.GNU-stack
+                0x00000000        0x0 build/w_main.o
+ .debug_frame   0x00000000       0x34 build/w_main.o
+ .ARM.attributes
+                0x00000000       0x2e build/w_main.o
+ .text          0x00000000      0x7a4 build/w_wad.o
+ .data          0x00000000        0x0 build/w_wad.o
+ .bss           0x00000000        0xc build/w_wad.o
+ .rodata        0x00000000      0x210 build/w_wad.o
+ .debug_info    0x00000000      0xa07 build/w_wad.o
+ .debug_abbrev  0x00000000      0x2d4 build/w_wad.o
+ .debug_aranges
+                0x00000000       0x20 build/w_wad.o
+ .debug_line    0x00000000      0x523 build/w_wad.o
+ .debug_str     0x00000000      0x587 build/w_wad.o
+ .comment       0x00000000       0x2c build/w_wad.o
+ .note.GNU-stack
+                0x00000000        0x0 build/w_wad.o
+ .debug_frame   0x00000000      0x20c build/w_wad.o
+ .ARM.attributes
+                0x00000000       0x2e build/w_wad.o
+ .text          0x00000000      0x684 build/z_zone.o
+ .data          0x00000000        0x0 build/z_zone.o
+ .bss           0x00000000        0x4 build/z_zone.o
+ .rodata        0x00000000      0x2b6 build/z_zone.o
+ .debug_info    0x00000000      0x74d build/z_zone.o
+ .debug_abbrev  0x00000000      0x257 build/z_zone.o
+ .debug_aranges
+                0x00000000       0x20 build/z_zone.o
+ .debug_line    0x00000000      0x50d build/z_zone.o
+ .debug_str     0x00000000      0x48d build/z_zone.o
+ .comment       0x00000000       0x2c build/z_zone.o
+ .note.GNU-stack
+                0x00000000        0x0 build/z_zone.o
+ .debug_frame   0x00000000      0x1cc build/z_zone.o
+ .ARM.attributes
+                0x00000000       0x2e build/z_zone.o
+ .text          0x00000000       0xbc build/w_file_stdc.o
+ .data          0x00000000        0xc build/w_file_stdc.o
+ .bss           0x00000000        0x0 build/w_file_stdc.o
+ .rodata        0x00000000        0x3 build/w_file_stdc.o
+ .debug_info    0x00000000      0x5cd build/w_file_stdc.o
+ .debug_abbrev  0x00000000      0x1fd build/w_file_stdc.o
+ .debug_aranges
+                0x00000000       0x20 build/w_file_stdc.o
+ .debug_line    0x00000000      0x1a2 build/w_file_stdc.o
+ .debug_str     0x00000000      0x465 build/w_file_stdc.o
+ .comment       0x00000000       0x2c build/w_file_stdc.o
+ .note.GNU-stack
+                0x00000000        0x0 build/w_file_stdc.o
+ .debug_frame   0x00000000       0x7c build/w_file_stdc.o
+ .ARM.attributes
+                0x00000000       0x2e build/w_file_stdc.o
+ .text          0x00000000      0x138 build/i_input.o
+ .data          0x00000000        0x4 build/i_input.o
+ .bss           0x00000000        0x4 build/i_input.o
+ .rodata        0x00000000      0x100 build/i_input.o
+ .debug_info    0x00000000      0x298 build/i_input.o
+ .debug_abbrev  0x00000000      0x1db build/i_input.o
+ .debug_aranges
+                0x00000000       0x20 build/i_input.o
+ .debug_line    0x00000000      0x101 build/i_input.o
+ .debug_str     0x00000000      0x251 build/i_input.o
+ .comment       0x00000000       0x2c build/i_input.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_input.o
+ .debug_frame   0x00000000       0xc8 build/i_input.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_input.o
+ .text          0x00000000      0x728 build/i_video.o
+ .data          0x00000000        0xc build/i_video.o
+ .bss           0x00000000      0x648 build/i_video.o
+ .rodata        0x00000000      0x1fb build/i_video.o
+ .debug_info    0x00000000      0x8e9 build/i_video.o
+ .debug_abbrev  0x00000000      0x31d build/i_video.o
+ .debug_aranges
+                0x00000000       0x20 build/i_video.o
+ .debug_line    0x00000000      0x468 build/i_video.o
+ .debug_str     0x00000000      0x567 build/i_video.o
+ .comment       0x00000000       0x2c build/i_video.o
+ .note.GNU-stack
+                0x00000000        0x0 build/i_video.o
+ .debug_frame   0x00000000      0x2c8 build/i_video.o
+ .ARM.attributes
+                0x00000000       0x2e build/i_video.o
+ .text          0x00000000       0x48 build/doomgeneric.o
+ .data          0x00000000        0x0 build/doomgeneric.o
+ .bss           0x00000000        0x4 build/doomgeneric.o
+ .debug_info    0x00000000      0x139 build/doomgeneric.o
+ .debug_abbrev  0x00000000       0xe3 build/doomgeneric.o
+ .debug_aranges
+                0x00000000       0x20 build/doomgeneric.o
+ .debug_line    0x00000000       0xeb build/doomgeneric.o
+ .debug_str     0x00000000      0x1c2 build/doomgeneric.o
+ .comment       0x00000000       0x2c build/doomgeneric.o
+ .note.GNU-stack
+                0x00000000        0x0 build/doomgeneric.o
+ .debug_frame   0x00000000       0x34 build/doomgeneric.o
+ .ARM.attributes
+                0x00000000       0x2e build/doomgeneric.o
+ .text          0x00000000       0x56 build/doomgeneric_stm32.o
+ .data          0x00000000        0x0 build/doomgeneric_stm32.o
+ .bss           0x00000000        0x0 build/doomgeneric_stm32.o
+ .debug_info    0x00000000      0x1ad build/doomgeneric_stm32.o
+ .debug_abbrev  0x00000000      0x12a build/doomgeneric_stm32.o
+ .debug_aranges
+                0x00000000       0x20 build/doomgeneric_stm32.o
+ .debug_line    0x00000000       0xc2 build/doomgeneric_stm32.o
+ .debug_str     0x00000000      0x1e4 build/doomgeneric_stm32.o
+ .comment       0x00000000       0x2c build/doomgeneric_stm32.o
+ .note.GNU-stack
+                0x00000000        0x0 build/doomgeneric_stm32.o
+ .debug_frame   0x00000000       0xcc build/doomgeneric_stm32.o
+ .ARM.attributes
+                0x00000000       0x2e build/doomgeneric_stm32.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/dummy.o
+LOAD build/am_map.o
+LOAD build/doomdef.o
+LOAD build/doomstat.o
+LOAD build/dstrings.o
+LOAD build/d_event.o
+LOAD build/d_items.o
+LOAD build/d_iwad.o
+LOAD build/d_loop.o
+LOAD build/d_main.o
+LOAD build/d_mode.o
+LOAD build/d_net.o
+LOAD build/f_finale.o
+LOAD build/f_wipe.o
+LOAD build/g_game.o
+LOAD build/hu_lib.o
+LOAD build/hu_stuff.o
+LOAD build/info.o
+LOAD build/i_cdmus.o
+LOAD build/i_endoom.o
+LOAD build/i_joystick.o
+LOAD build/i_scale.o
+LOAD build/i_sound.o
+LOAD build/i_system.o
+LOAD build/i_timer.o
+LOAD build/memio.o
+LOAD build/m_argv.o
+LOAD build/m_bbox.o
+LOAD build/m_cheat.o
+LOAD build/m_config.o
+LOAD build/m_controls.o
+LOAD build/m_fixed.o
+LOAD build/m_menu.o
+LOAD build/m_misc.o
+LOAD build/m_random.o
+LOAD build/p_ceilng.o
+LOAD build/p_doors.o
+LOAD build/p_enemy.o
+LOAD build/p_floor.o
+LOAD build/p_inter.o
+LOAD build/p_lights.o
+LOAD build/p_map.o
+LOAD build/p_maputl.o
+LOAD build/p_mobj.o
+LOAD build/p_plats.o
+LOAD build/p_pspr.o
+LOAD build/p_saveg.o
+LOAD build/p_setup.o
+LOAD build/p_sight.o
+LOAD build/p_spec.o
+LOAD build/p_switch.o
+LOAD build/p_telept.o
+LOAD build/p_tick.o
+LOAD build/p_user.o
+LOAD build/r_bsp.o
+LOAD build/r_data.o
+LOAD build/r_draw.o
+LOAD build/r_main.o
+LOAD build/r_plane.o
+LOAD build/r_segs.o
+LOAD build/r_sky.o
+LOAD build/r_things.o
+LOAD build/sha1.o
+LOAD build/sounds.o
+LOAD build/statdump.o
+LOAD build/st_lib.o
+LOAD build/st_stuff.o
+LOAD build/s_sound.o
+LOAD build/tables.o
+LOAD build/v_video.o
+LOAD build/wi_stuff.o
+LOAD build/w_checksum.o
+LOAD build/w_file.o
+LOAD build/w_main.o
+LOAD build/w_wad.o
+LOAD build/z_zone.o
+LOAD build/w_file_stdc.o
+LOAD build/i_input.o
+LOAD build/i_video.o
+LOAD build/doomgeneric.o
+LOAD build/doomgeneric_stm32.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x00010094                        . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+                0x00010094       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00010094       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn        0x000100b8        0x0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x000100b8        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x000100b8        0x0
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000100b8        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000100b8        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000100b8        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000100b8        0x0 linker stubs
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x000100b8        0x0
+                [!provide]                        PROVIDE (__exidx_start = .)
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000110b8                        . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x000110b8        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000110b8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000110b8        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x000110b8        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic
+ *(.dynamic)
+                0x000110b8                        . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x000110b8        0x0
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+
+.data1
+ *(.data1)
+                0x000110b8                        _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000110b8                        . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x000110b8                        __bss_start = .
+                0x000110b8                        __bss_start__ = .
+
+.bss            0x000110b8        0x0
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ *(COMMON)
+                0x000110b8                        . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000110b8                        _bss_end__ = .
+                0x000110b8                        __bss_end__ = .
+                0x000110b8                        . = ALIGN (0x4)
+                0x000110b8                        . = SEGMENT_START ("ldata-segment", .)
+                0x000110b8                        . = ALIGN (0x4)
+                0x000110b8                        __end__ = .
+                0x000110b8                        _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x000110b8                        . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(doomgeneric elf32-littlearm)
+LOAD linker stubs
