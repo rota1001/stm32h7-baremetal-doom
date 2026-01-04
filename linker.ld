@@ -17,7 +17,26 @@ SECTIONS {
         *(.text)
         *(.rodata)
     } > FLASH
-
-    _stack_top = ORIGIN(SRAM4) + LENGTH(SRAM4);
+    .data : {
+        . = ORIGIN(SRAM1) + 16K;
+        _data_vma_start = .;
+        *(.data)
+        *(.data.*)
+        . = ALIGN(4);
+        _data_vma_end = .;
+    } > SRAM1 AT > FLASH
+    .bss (NOLOAD) : {
+        . = ALIGN(4);
+        _bss_vma_start = .;
+        *(.bss)
+        . = ALIGN(4);
+        _bss_vma_end = .;
+        _heap_start = .;
+        ASSERT(_bss_vma_end <= ORIGIN(SRAM1) + 17K, "Error: .bss or .data too large");
+    } > SRAM1
+    _data_lma = LOADADDR(.data);
+    _stack_top_on_boot = ORIGIN(SRAM4) + 16K;
+    _stack_top = ORIGIN(SRAM1) + 16K;
+    _heap_end = ORIGIN(SRAM1) + 20K;
     _axi_sram = ORIGIN(AXISRAM);
 }
