@@ -36,6 +36,7 @@ __attribute__((section(".reset_isr"))) void reset_isr()
     mm_init();
     for (unsigned long i = 0; i < 307200; i++)
         ((volatile unsigned char *) &_axi_sram)[i] = ((i >> 3) & 7) << 5;
+    test_libc();
 
     volatile uint8_t *flash_ptr = (uint8_t *) 0x90000000;
 
