@@ -1,5 +1,7 @@
 # STM32H7 Bare Metal Doom
 This is a port of [doomgeneric](https://github.com/ozkl/doomgeneric) running on STM32H750 without **ST HAL Library**.
+## Demo
+https://www.youtube.com/watch?v=qiCk467Afwo
 
 ## Where's the challenge?
 In comparison to STM32F429(, which most of the STM32 DOOM run on), STM32H750 has more constrained flash and SRAM. Although the external DRAM can be added through FMC, the required pins are not exposed on my board.
