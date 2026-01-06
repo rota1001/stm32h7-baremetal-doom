@@ -55,6 +55,7 @@ struct lumpinfo_s
 extern lumpinfo_t *lumpinfo;
 extern unsigned int numlumps;
 
+wad_file_t *W_LoadWADFlash(void);
 wad_file_t *W_AddFile (char *filename);
 
 int	W_CheckNumForName (char* name);

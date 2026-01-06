@@ -14,7 +14,7 @@ SECTIONS {
         *(.rodata)
     } > QUADFLASH
     .bss (NOLOAD) : {
-        . = ORIGIN(SRAM1) + 20K;
+        . = ORIGIN(SRAM1) + 49K;
         _doom_bss_vma_start = .;
         *(.bss)
         . = ALIGN(4);
@@ -29,5 +29,12 @@ SECTIONS {
         _doom_data_vma_end = .;
     } > SRAM4 AT > QUADFLASH
     _doom_data_lma = LOADADDR(.data);
-
+    _free_ram1_start = ORIGIN(AXISRAM) + 64000;
+    _free_ram1_end = ORIGIN(AXISRAM) + LENGTH(AXISRAM);
+    _free_ram2_start = _doom_bss_vma_end;
+    _free_ram2_end = ORIGIN(SRAM1) + LENGTH(SRAM1);
+    _free_ram3_start = _doom_data_vma_end;
+    _free_ram3_end = ORIGIN(SRAM4) + LENGTH(SRAM4);
+    _free_ram4_start = ORIGIN(DTCMRAM);
+    _free_ram4_end = ORIGIN(DTCMRAM) + LENGTH(DTCMRAM);
 }

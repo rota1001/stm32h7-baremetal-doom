@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <mm.h>
 
 void putchar(char c)
 {
@@ -31,6 +32,7 @@ void vprintf(const char *fmt, va_list arg)
             putchar(c);
             break;
         }
+        case 'i':
         case 'd': {
             int x = va_arg(arg, int);
             int i = 0;
@@ -45,6 +47,7 @@ void vprintf(const char *fmt, va_list arg)
             unsigned int y = va_arg(arg, unsigned int);
             print_uint(y);
             break;
+        case 'p':
         case 'x':
             unsigned int z = va_arg(arg, unsigned int);
             for (int i = 7; i >= 0; i--) {
@@ -100,6 +103,7 @@ int vsnprintf(char *dst, unsigned long size, const char *fmt, va_list arg)
             dst[cnt++] = c;
             break;
         }
+        case 'i':
         case 'd': {
             int x = va_arg(arg, int);
             if (!x) {
@@ -138,6 +142,7 @@ int vsnprintf(char *dst, unsigned long size, const char *fmt, va_list arg)
             }
             break;
         }
+        case 'p':
         case 'x':
             unsigned int z = va_arg(arg, unsigned int);
             for (int i = 7; i >= 0 && cnt < size; i--)
@@ -257,10 +262,17 @@ void *calloc(size_t nmemb, size_t size)
 
 void *realloc(void *ptr, size_t size)
 {
-    printf("realloc not implemented");
-    while (1)
-        ;
-    return 0;
+    if (!ptr)
+        return malloc(size);
+    if (size <= ((block_t *)(ptr - sizeof(block_t)))->size - sizeof(block_t))
+        return ptr;
+    
+    void *data = malloc(size);
+    if (!data)
+        return NULL;
+    memcpy(data, ptr, ((block_t *)(ptr - sizeof(block_t)))->size - sizeof(block_t));
+    free(ptr);
+    return data;
 }
 
 
@@ -347,10 +359,9 @@ char *strcpy(char *dest, const char *src)
 
 char *strncpy(char *dst, const char *src, size_t n)
 {
-    return 0;
     char *tmp = dst;
     while (n--) {
-        if (!(*tmp = *src))
+        if (!(*dst = *src))
             break;
         dst++;
         src++;
@@ -390,14 +401,10 @@ int strcasecmp(const char *s1, const char *s2)
 
 int strncasecmp(const char *s1, const char *s2, size_t n)
 {
-    printf("strncasecmp not implemented");
-    while (1)
-        ;
-    return 0;
     if (n == 0)
         return 0;
-    while (n-- != 0 && tolower(*s1) == tolower(*s2)) {
-        if (n == 0 || *s1 == '\0' || *s2 == '\0')
+    while ((n--) && tolower(*s1) == tolower(*s2)) {
+        if (!n || !(*s1) || !(*s2))
             break;
         s1++;
         s2++;

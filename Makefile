@@ -14,7 +14,7 @@ OBJCOPY = $(CROSS_COMPILE)objcopy
 
 CFLAGS = -mcpu=cortex-m7 -mthumb
 CFLAGS += -nostartfiles -g -nostdlib -ffreestanding
-CFLAGS += -Iinclude
+CFLAGS += -Iinclude -Idoomgeneric
 
 all: build/firmware.bin
 
@@ -35,7 +35,12 @@ flash: build/firmware.bin
 flash-dummy: dummy.bin
 	st-flash --reset write dummy.bin 0x8000000
 
-flash-doom: doomgeneric/build/doom.bin
+doom:
+	make -C doomgeneric clean
+	make -C doomgeneric
+
+
+flash-doom: doomgeneric/build/doom.bin doom
 	make flash-dummy
 	minipro -p 'W25Q128JV@SOIC8' --spi_clock=30 -w doomgeneric/build/doom.bin -s
 	make flash

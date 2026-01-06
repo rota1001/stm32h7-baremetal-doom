@@ -127,6 +127,98 @@ static void ExtendLumpInfo(int newnumlumps)
 // LUMP BASED ROUTINES.
 //
 
+
+static void dummy(void)
+{
+
+}
+
+static flash_read(wad_file_t *file, unsigned int offset, void *buffer, size_t buffer_len)
+{
+    memcpy(buffer, file->mapped + offset, buffer_len);
+}
+
+wad_file_class_t flash_file_class = {
+    .OpenFile = dummy,
+    .CloseFile = dummy,
+    .Read = flash_read
+};
+
+wad_file_t doom1_wad;
+extern const unsigned char _binary_doom1_wad_start[], _binary_doom1_wad_end[]; 
+
+wad_file_t *W_LoadWADFlash(void)
+{
+    wadinfo_t header;
+    lumpinfo_t *lump_p;
+    unsigned int i;
+    wad_file_t *wad_file;
+    int length;
+    int startlump;
+    filelump_t *fileinfo;
+    filelump_t *filerover;
+    int newnumlumps;
+
+    doom1_wad.file_class = &flash_file_class;
+    doom1_wad.length = _binary_doom1_wad_end - _binary_doom1_wad_start;
+    doom1_wad.mapped = _binary_doom1_wad_start;
+    wad_file = &doom1_wad;
+    
+    newnumlumps = numlumps;
+    	// WAD file
+    W_Read(wad_file, 0, &header, sizeof(header));
+
+	if (strncmp(header.identification,"IWAD",4))
+	{
+		// Homebrew levels?
+		if (strncmp(header.identification,"PWAD",4))
+		{
+            I_Error("Wad file in flash doesn't have IWAD  or PWAD id\n");
+		}
+
+		// ???modifiedgame = true;
+	}
+
+	header.numlumps = LONG(header.numlumps);
+	header.infotableofs = LONG(header.infotableofs);
+	length = header.numlumps*sizeof(filelump_t);
+	fileinfo = Z_Malloc(length, PU_STATIC, 0);
+    printf("fileinfo: %x\n", fileinfo);
+    printf("len: %d\n", length);
+    W_Read(wad_file, header.infotableofs, fileinfo, length);
+    newnumlumps += header.numlumps;
+
+    // Increase size of numlumps array to accomodate the new file.
+    startlump = numlumps;
+    ExtendLumpInfo(newnumlumps);
+
+    lump_p = &lumpinfo[startlump];
+
+    filerover = fileinfo;
+
+    for (i=startlump; i<numlumps; ++i)
+    {
+		lump_p->wad_file = wad_file;
+		lump_p->position = LONG(filerover->filepos);
+		lump_p->size = LONG(filerover->size);
+			lump_p->cache = NULL;
+		strncpy(lump_p->name, filerover->name, 8);
+
+			++lump_p;
+			++filerover;
+    }
+
+    Z_Free(fileinfo);
+
+    if (lumphash != NULL)
+    {
+        Z_Free(lumphash);
+        lumphash = NULL;
+    }
+
+    return wad_file;
+}
+
 //
 // W_AddFile
 // All files are optional, but at least one file must be
@@ -262,6 +354,7 @@ int W_CheckNumForName (char* name)
 
     if (lumphash != NULL)
     {
+        printf("hash\n");
         int hash;
         
         // We do! Excellent.
@@ -270,6 +363,8 @@ int W_CheckNumForName (char* name)
         
         for (lump_p = lumphash[hash]; lump_p != NULL; lump_p = lump_p->next)
         {
+            // if (lump_p->name[0] != 0)
+            //     printf("lump_p->name: %s\n", lump_p->name);
             if (!strncasecmp(lump_p->name, name, 8))
             {
                 return lump_p - lumpinfo;
@@ -284,6 +379,9 @@ int W_CheckNumForName (char* name)
 
         for (i=numlumps-1; i >= 0; --i)
         {
+            // if (lumpinfo[i].name[0])
+            //     printf("lumpinfo[i].name: %s\n", lumpinfo[i].name);
+
             if (!strncasecmp(lumpinfo[i].name, name, 8))
             {
                 return i;
@@ -538,6 +636,8 @@ void W_Profile (void)
 
 void W_GenerateHashTable(void)
 {
+    lumphash = NULL;
+    return;
     unsigned int i;
 
     // Free the old hash table, if there is one

@@ -865,6 +865,11 @@ void D_SetGameDescription(void)
 //      print title for every printed line
 char            title[128];
 
+static void D_LoadWADFlash(void)
+{
+    W_LoadWADFlash();
+}
+
 static boolean D_AddFile(char *filename)
 {
     wad_file_t *handle;
@@ -1105,7 +1110,6 @@ void D_DoomMain (void)
 
     DEH_printf("Z_Init: Init zone memory allocation daemon. \n");
     Z_Init ();
-
     //!
     // @vanilla
     //
@@ -1176,7 +1180,7 @@ void D_DoomMain (void)
     {
         // Auto-detect the configuration dir.
 
-        M_SetConfigDir(NULL);
+        // M_SetConfigDir(NULL);
     }
 
 
@@ -1194,20 +1198,22 @@ void D_DoomMain (void)
     I_AtExit(M_SaveDefaults, false);
 
     // Find main IWAD file and load it.
-    iwadfile = D_FindIWAD(IWAD_MASK_DOOM, &gamemission);
+    // iwadfile = D_FindIWAD(IWAD_MASK_DOOM, &gamemission);
 
-    // None found?
+    // // None found?
 
-    if (iwadfile == NULL)
-    {
-        I_Error("Game mode indeterminate.  No IWAD file was found.  Try\n"
-                "specifying one with the '-iwad' command line parameter.\n");
-    }
+    // if (iwadfile == NULL)
+    // {
+    //     I_Error("Game mode indeterminate.  No IWAD file was found.  Try\n"
+    //             "specifying one with the '-iwad' command line parameter.\n");
+    // }
 
-    modifiedgame = false;
+    // modifiedgame = false;
 
     DEH_printf("W_Init: Init WADfiles.\n");
-    D_AddFile(iwadfile);
+    D_LoadWADFlash();
+    printf("Load WAD done\n");
+    // D_AddFile(iwadfile);
 #if ORIGCODE
     numiwadlumps = numlumps;
 #endif
@@ -1298,6 +1304,7 @@ void D_DoomMain (void)
     D_SetGameDescription();
 
     savegamedir = M_GetSaveGameDir(D_SaveGameIWADName(gamemission));
+    
 
 
     if (W_CheckNumForName("SS_START") >= 0
@@ -1556,7 +1563,7 @@ void D_DoomMain (void)
 		else
 			D_StartTitle ();                // start up intro loop
     }
-
+    printf("Done Loading\n");
     D_DoomLoop ();
 }
 

@@ -2088,6 +2088,8 @@ void M_SetConfigDir(char *dir)
 
 char *M_GetSaveGameDir(char *iwadname)
 {
+    printf("*M_GetSaveGameDir not implemented yet\n");
+    return NULL;
     char *savegamedir;
 #if ORIGCODE
     char *topdir;

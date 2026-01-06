@@ -21,6 +21,7 @@
 #define __I_VIDEO__
 
 #include "doomtype.h"
+#include "ltdc.h"
 
 // Screen width and height.
 

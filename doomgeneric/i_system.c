@@ -109,7 +109,7 @@ static byte *AutoAllocMemory(int *size, int default_ram, int min_ram)
 
         if (default_ram < min_ram)
         {
-            I_Error("Unable to allocate %i MiB of RAM for zone", default_ram);
+            I_Error("Unable to allocate %d MiB of RAM for zone", default_ram);
         }
 
         // Try to allocate the zone memory.

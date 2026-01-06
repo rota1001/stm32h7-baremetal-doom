@@ -294,7 +294,11 @@ void HU_Init(void)
     j = HU_FONTSTART;
     for (i=0;i<HU_FONTSIZE;i++)
     {
-	DEH_snprintf(buffer, 9, "STCFN%.3d", j++);
+	DEH_snprintf(buffer, 9, "STCFN   ");
+    buffer[5] = (j / 100) % 10 + '0';
+    buffer[6] = (j / 10) % 10 + '0';
+    buffer[7] = j % 10 + '0';
+    j++;
 	hu_font[i] = (patch_t *) W_CacheLumpName(buffer, PU_STATIC);
     }
 

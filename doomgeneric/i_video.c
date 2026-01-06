@@ -48,7 +48,8 @@ rcsid[] = "$Id: i_x.c,v 1.6 1997/02/03 22:45:10 b1 Exp $";
 
 #include <sys/types.h>
 
-//#define CMAP256
+
+#define CMAP256
 
 struct FB_BitField
 {
@@ -284,8 +285,8 @@ void I_InitGraphics (void)
             fb_scaling = s_Fb.yres / SCREENHEIGHT;
         printf("I_InitGraphics: Auto-scaling factor: %d\n", fb_scaling);
     }
-
-
+    extern unsigned long _frame_buffer;
+    // I_VideoBuffer = &_frame_buffer;
     /* Allocate screen to draw to */
 	I_VideoBuffer = (byte*)Z_Malloc (SCREENWIDTH * SCREENHEIGHT, PU_STATIC, NULL);  // For DOOM to draw on
 
@@ -297,7 +298,7 @@ void I_InitGraphics (void)
 
 void I_ShutdownGraphics (void)
 {
-	Z_Free (I_VideoBuffer);
+	// Z_Free (I_VideoBuffer);
 }
 
 void I_StartFrame (void)
@@ -320,6 +321,11 @@ void I_UpdateNoBlit (void)
 
 void I_FinishUpdate (void)
 {
+    /**
+     * I_VideoBuffer is also used as frame buffer, so no need
+     * to update the DG_ScreenBuffer.
+     */
+    // return;
     int y;
     int x_offset, y_offset, x_offset_end;
     unsigned char *line_in, *line_out;
@@ -338,35 +344,36 @@ void I_FinishUpdate (void)
     line_out = (unsigned char *) DG_ScreenBuffer;
 
     y = SCREENHEIGHT;
+    for (int i = 0; i < 320*200; i += 4)
+        *(uint32_t *)&line_out[i] = *(uint32_t *)&line_in[i];
+//     while (y--)
+//     {
+//         int i;
+//         for (i = 0; i < fb_scaling; i++) {
+//             line_out += x_offset;
+// #ifdef CMAP256
+//             if (fb_scaling == 1) {
+//                 memcpy(line_out, line_in, SCREENWIDTH); /* fb_width is bigger than Doom SCREENWIDTH... */
+//             } else {
+//                 int j;
 
-    while (y--)
-    {
-        int i;
-        for (i = 0; i < fb_scaling; i++) {
-            line_out += x_offset;
-#ifdef CMAP256
-            if (fb_scaling == 1) {
-                memcpy(line_out, line_in, SCREENWIDTH); /* fb_width is bigger than Doom SCREENWIDTH... */
-            } else {
-                int j;
+//                 for (j = 0; j < SCREENWIDTH; j++) {
+//                     int k;
+//                     for (k = 0; k < fb_scaling; k++) {
+//                         line_out[j * fb_scaling + k] = line_in[j];
+//                     }
+//                 }
+//             }
+// #else
+//             //cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
+//             cmap_to_fb((void*)line_out, (void*)line_in, SCREENWIDTH);
+// #endif
+//             line_out += (SCREENWIDTH * fb_scaling * (s_Fb.bits_per_pixel/8)) + x_offset_end;
+//         }
+//         line_in += SCREENWIDTH;
+//     }
 
-                for (j = 0; j < SCREENWIDTH; j++) {
-                    int k;
-                    for (k = 0; k < fb_scaling; k++) {
-                        line_out[j * fb_scaling + k] = line_in[j];
-                    }
-                }
-            }
-#else
-            //cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
-            cmap_to_fb((void*)line_out, (void*)line_in, SCREENWIDTH);
-#endif
-            line_out += (SCREENWIDTH * fb_scaling * (s_Fb.bits_per_pixel/8)) + x_offset_end;
-        }
-        line_in += SCREENWIDTH;
-    }
-
-	DG_DrawFrame();
+// 	DG_DrawFrame();
 }
 
 //
@@ -411,6 +418,7 @@ void I_SetPalette (byte* palette)
         colors[i].g = gammatable[usegamma][*palette++];
         colors[i].b = gammatable[usegamma][*palette++];
     }
+    ltdc_set_clut((struct ltdc_color *)colors);
 
 #ifdef CMAP256
 

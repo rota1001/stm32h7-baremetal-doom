@@ -27,9 +27,14 @@ build/%.o: %.c
 	@mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c $< -o $@
 
-build/doom.out: $(OBJS) $(LINKER)
+build/doom1_wad.o: doom1.wad
+	arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm \
+    --rename-section .data=.rodata,alloc,load,readonly,data,contents \
+    doom1.wad build/doom1_wad.o
+
+build/doom.out: $(OBJS) $(LINKER) build/doom1_wad.o
 	$(CC) $(CFLAGS) -T $(LINKER) -Wl,-Map=build/main.map -Wl,--gc-sections -o $@ \
-	-Wl,--start-group $(OBJS) -lgcc -Wl,--end-group -Wl,--just-symbols=$(FIRMWARE)
+	-Wl,--start-group $(OBJS) build/doom1_wad.o -lgcc -Wl,--end-group -Wl,--just-symbols=$(FIRMWARE)
 
 build/doom.bin: build/doom.out
 	$(OBJCOPY) -O binary $< $@
