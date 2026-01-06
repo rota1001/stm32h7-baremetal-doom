@@ -51,11 +51,22 @@ void hardfault_handler(void)
         ;
 }
 
+
+void systick_handler(void)
+{
+    systick_cnt++;
+}
+
 #define MSP 0
 #define RESET 1
 #define HARDFAULT 3
+#define SYSTICK 15
+#define LTDC 104
 
 __attribute__((section(".isr_vector"))) unsigned long isr_vec[] = {
     [MSP](unsigned long) & _stack_top_on_boot,
     [RESET](unsigned long) reset_isr,
-    [HARDFAULT](unsigned long) hardfault_handler};
+    [HARDFAULT](unsigned long) hardfault_handler,
+    [SYSTICK](unsigned long) systick_handler,
+    [LTDC](unsigned long)ltdc_irq
+};

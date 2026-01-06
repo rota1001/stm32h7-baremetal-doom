@@ -54,6 +54,7 @@
 #define RCC_CFGR_SWS_HSE (2UL << 3)
 #define RCC_CFGR_SWS_PLL1 (3UL << 3)
 
+
 #define RCC_PLLCKSELR_PLLSRC_MASK (3UL << 0)
 #define RCC_PLLCKSELR_PLLSRC_HSI (0UL << 0)
 #define RCC_PLLCKSELR_PLLSRC_CSI (1UL << 0)
@@ -61,7 +62,9 @@
 #define RCC_PLLCKSELR_PLLSRC_NONE (3UL << 0)
 
 #define RCC_PLLCKSELR_DIVM1_MASK (0x3FUL << 4)
+#define RCC_PLLCKSELR_DIVM1_Pos (4U)
 #define RCC_PLLCKSELR_DIVM3_MASK (0x3FUL << 20)
+#define RCC_PLLCKSELR_DIVM3_Pos (20U)
 
 #define RCC_PLLCFGR_PLL1RGE_Pos (2U)
 #define RCC_PLLCFGR_PLL1RGE_MASK (3UL << RCC_PLLCFGR_PLL1RGE_Pos)
@@ -332,8 +335,14 @@ struct ltdc {
 #define LTDC_LxCR_LEN BIT(0)
 #define LTDC_LxCR_CLUTEN BIT(4)
 
+#define LTDC_IER_LIE BIT(0)
+
+#define LTDC_ICR_CLIF BIT(0)
+
 #define LTDC_PF_L8 0x05UL
 #define LTDC_PF_RGB565 0x02UL
+
+#define LTDC_ISR_LIF BIT(0)
 
 #define QUADSPI_BASE 0x52005000UL
 
@@ -361,3 +370,19 @@ struct qspi {
 #define QUADSPI_CR_EN BIT(0)
 #define QUADSPI_CR_DIV2 BIT(24)
 #define QUADSPI_CR_SSHIFT BIT(4)
+
+#define SYSTICK_BASE        (0xE000E010UL)
+#define SYSTICK_CSR         (*((volatile unsigned long *)(SYSTICK_BASE + 0x00)))
+#define SYSTICK_RVR         (*((volatile unsigned long *)(SYSTICK_BASE + 0x04)))
+#define SYSTICK_CVR         (*((volatile unsigned long *)(SYSTICK_BASE + 0x08)))
+
+#define SYSCLK_FREQ 200000000UL
+#define SYSTICK_ENABLE      BIT(0)
+#define SYSTICK_TICKINT     BIT(1)
+#define SYSTICK_CLKSOURCE   BIT(2)
+
+#define NVIC_IPR ((volatile uint8_t *)(0xE000E400))
+#define NVIC_ISER2 (*(volatile unsigned long *)(0xE000E100 + 0x08))
+
+#define SCB_CCR (*(volatile unsigned long *)0xE000ED14)
+#define SCB_ICIALLU (*(volatile unsigned long *)0xE000ED50)

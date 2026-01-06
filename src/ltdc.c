@@ -104,6 +104,22 @@ void ltdc_config_clut(void)
     }
 }
 
+
+void ltdc_set_clut(struct ltdc_color *colors)
+{
+    for (unsigned long i = 0; i < 256; i++) {
+        uint8_t r = (colors[i].r >> 5) & 7;
+        uint8_t g = (colors[i].g >> 5) & 7;
+        uint8_t b = (colors[i].b >> 6) & 3;
+        LTDC_layer1->CLUTWR = (i << 24) | (r << (16 + (8 - 3))) |
+                              (g << (8 + (8 - 3))) | (b << (8 - 2));
+    }
+    LTDC->SRCR = LTDC_SRCR_IMR;
+}
+
+extern unsigned long _frame_buffer;
+unsigned long current;
+
 void ltdc_init(void *frame_buffer)
 {
     RCC_APB3ENR |= RCC_APB3ENR_LTDCEN;
@@ -135,5 +151,27 @@ void ltdc_init(void *frame_buffer)
     LTDC->GCR |= LTDC_GCR_LTDCEN;
     ltdc_layer1_init(frame_buffer);
     ltdc_config_clut();
+    LTDC->LIPCR = VSYNC + VBP;
+    current = VSYNC + VBP;
+    LTDC->IER |= LTDC_IER_LIE;
     LTDC->SRCR = LTDC_SRCR_IMR;
+    NVIC_IPR[88] = 0;
+    NVIC_ISER2 = (1 << 24);
+}
+
+
+
+void ltdc_irq(void)
+{
+    if (LTDC->ISR & LTDC_ISR_LIF) {
+        LTDC->ICR = LTDC_ICR_CLIF;
+        LTDC_layer1->CFBAR = ((unsigned long)&_frame_buffer) - LCD_WIDTH * ((current - VSYNC - VBP) >> 1);
+        if (current == VSYNC + VBP + LCD_HEIGHT - 1) {
+            current = VSYNC + VBP;
+        } else {
+            current++;
+        }
+        LTDC->LIPCR = current;
+        LTDC->SRCR = LTDC_SRCR_IMR;
+    }
 }
